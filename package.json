@@ -1,0 +1,28 @@
+{
+    "name": "code_wars",
+    "version": "1.0.0",
+    "description": "Code wars education",
+    "main": "",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --require @babel/register",
+        "start": "babel-node ExesAndOhs.js"
+    },
+    "author": "Levon Matevosyan",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.18.9",
+        "@babel/core": "^7.18.9",
+        "@babel/node": "^7.18.9",
+        "@babel/preset-env": "^7.18.9",
+        "@babel/register": "^7.18.9",
+        "chai": "^4.3.6",
+        "eslint": "^5.16.0",
+        "eslint-config-google": "^0.13.0",
+        "eslint-config-prettier": "^4.3.0",
+        "lint-staged": "^8.2.1",
+        "mocha": "^7.2.0",
+        "nodemon": "^2.0.19",
+        "prettier": "1.17.1"
+    }
+}
